@@ -32,3 +32,4 @@ for row in range(1, ws.max_row + 1):
         print('yes', f'{pictureColumn}{row}')
         img = image_loader.get(f"{pictureColumn}{row}")
         img.save(f"imgaes/{codeMelli}.jpg")
+# ss
